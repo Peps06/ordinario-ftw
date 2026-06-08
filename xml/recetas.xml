@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recetas>
+<recetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="recetas.xsd">
 
     <receta>
         <nombre>Ensalada Mediterránea</nombre>
-        <categoria>Saludable</categoria>
+        <categoria>Entrada</categoria>
         <tiempo>15 min</tiempo>
         <dificultad>Fácil</dificultad>
         <porciones>2 personas</porciones>
@@ -42,7 +43,7 @@
 
     <receta>
         <nombre>Pasta a la Carbonara</nombre>
-        <categoria>Pasta</categoria>
+        <categoria>Plato Principal</categoria>
         <tiempo>40 min</tiempo>
         <dificultad>Fácil</dificultad>
         <porciones>6 personas</porciones>
@@ -112,7 +113,7 @@
 
     <receta>
         <nombre>Ramen</nombre>
-        <categoria>Sopa</categoria>
+        <categoria>Entrada</categoria>
         <tiempo>1 h 15 min</tiempo>
         <dificultad>Intermedio</dificultad>
         <porciones>6 personas</porciones>
@@ -306,7 +307,7 @@
 
     <receta>
         <nombre>Crema de Champiñones</nombre>
-        <categoria>Sopa</categoria>
+        <categoria>Entrada</categoria>
         <tiempo>40 min</tiempo>
         <dificultad>Fácil</dificultad>
         <porciones>4 personas</porciones>

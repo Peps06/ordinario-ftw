@@ -43,7 +43,7 @@
 
     <receta>
         <nombre>Pasta a la Carbonara</nombre>
-        <categoria>Plato Principal</categoria>
+        <categoria>Plato Fuerte</categoria>
         <tiempo>40 min</tiempo>
         <dificultad>Fácil</dificultad>
         <porciones>6 personas</porciones>
@@ -163,7 +163,7 @@
 
     <receta>
         <nombre>Rajas de Res con Chile Morrón</nombre>
-        <categoria>Plato Principal</categoria>
+        <categoria>Plato Fuerte</categoria>
         <tiempo>35 min</tiempo>
         <dificultad>Fácil</dificultad>
         <porciones>4 personas</porciones>
@@ -201,7 +201,7 @@
 
     <receta>
         <nombre>Pollo con Papas</nombre>
-        <categoria>Plato Principal</categoria>
+        <categoria>Plato Fuerte</categoria>
         <tiempo>45 min</tiempo>
         <dificultad>Fácil</dificultad>
         <porciones>4 personas</porciones>
@@ -238,7 +238,7 @@
 
     <receta>
         <nombre>Carne con Calabacitas</nombre>
-        <categoria>Plato Principal</categoria>
+        <categoria>Plato Fuerte</categoria>
         <tiempo>30 min</tiempo>
         <dificultad>Fácil</dificultad>
         <porciones>4 personas</porciones>

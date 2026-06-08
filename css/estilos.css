@@ -227,6 +227,46 @@ header {
     background: var(--blanco);
 }
 
+/* Controles de filtrado en recetas.html */
+.controles-recetas {
+    max-width: 1200px;
+    margin: 0 auto 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.buscador-recetas {
+    width: 100%;
+    max-width: 480px;
+}
+
+.buscador-recetas input {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1.5px solid #ddd;
+    border-radius: 50px;
+    font-size: 0.92rem;
+    font-family: 'DM Sans', sans-serif;
+    color: var(--texto);
+    background: #fff;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.buscador-recetas input:focus {
+    border-color: var(--acento);
+    box-shadow: 0 0 0 3px rgba(200,135,58,0.12);
+}
+
+.categorias-recetas {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+/* .seccion-header sigue igual para index.html */
 .seccion-header {
     max-width: 1200px;
     margin: 0 auto 36px;
@@ -999,9 +1039,8 @@ input:checked + .slider:before { transform: translateX(22px); }
 .notificacion.eliminar { background: #c0392b; }
 .notificacion.error { background: #c0392b; }
 
-/* ===========================
-   PAGINA DE LOGIN / REGISTRO
-   =========================== */
+   /* Página de login */
+
 .seccion-auth {
     min-height: calc(100vh - 64px);
     background: var(--gris-suave);

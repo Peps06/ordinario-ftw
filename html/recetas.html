@@ -32,9 +32,29 @@
         <h2>Todas las recetas</h2>
     </div>
 
-    <div id="contenedor-recetas" class="grid-recetas">
-        <p style="text-align:center;color:var(--texto-suave);padding:40px;">Cargando recetas...</p>
+    <div class="controles-recetas">
+        <div class="buscador-recetas">
+            <input
+                type="text"
+                id="buscador"
+                placeholder="🔍 Buscar receta..."
+                autocomplete="off"
+            />
+        </div>
+        <div class="categorias-recetas">
+            <button class="btn-categoria activo" data-categoria="todos">Todos</button>
+            <button class="btn-categoria" data-categoria="Entrada">Entrada</button>
+            <button class="btn-categoria" data-categoria="Plato Fuerte">Plato Fuerte</button>
+            <button class="btn-categoria" data-categoria="Postre">Postre</button>
+            <button class="btn-categoria" data-categoria="Bebida">Bebida</button>
+        </div>
     </div>
+
+    <p id="sin-resultados" style="display:none;text-align:center;color:var(--texto-suave);padding:40px;">
+        No se encontraron recetas con esos criterios.
+    </p>
+
+    <div id="contenedor-recetas" class="grid-recetas"></div>
 </main>
 
 <footer>
